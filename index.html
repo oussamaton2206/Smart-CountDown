@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>OUSSAMA'S POMODORO</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+<body id="body">
+    <div class="container" id="container">
+        <div class="countdown">
+            <h1 id="timer">
+                00:00
+            </h1>
+            <button onclick="start()" id="btn1">start</button>
+            <button onclick="refresh()" id="btn2">reset</button>
+            <button onclick="set()" id="btn3">Set</button>
+
+            <div class="settings" id="sets">
+                <div class="closeBtn" onclick="closeBtn()">
+                    x
+                </div>
+                <label for="">Enter the duration <br>(Max 59 min)</label> <br>
+                <input type="text" id="dur">
+                <br><br>
+                <button onclick="apply()">Apply</button>
+
+                <hr>
+                <div class="themes" id="themes">
+                    <h5>
+                        Themes
+                    </h5>
+                    <div class="themes-container">
+                        <div class="theme-1 theme" id="t1">
+
+                        </div>
+                        <div class="theme-2 theme" id="t2">
+
+                        </div>
+                        <div class="theme-3 theme" id="t3">
+
+                        </div>
+                        <div class="theme-4 theme" id="t4">
+
+                        </div>
+                        <div class="theme-5 theme" id="t5">
+
+                        </div>
+                        <div class="theme-6 theme" id="t6">
+
+                        </div>
+                        <div class="theme-7 theme" id="t7">
+
+                        </div>
+                        <div class="theme-8 theme" id="t8">
+
+                        </div>
+                        <div class="theme-9 theme" id="t9">
+
+                        </div>
+                        <div class="theme-10 theme" id="t10">
+
+                        </div>
+                        <div class="theme-11 theme" id="t11">
+
+                        </div>
+                        <div class="theme-12 theme" id="t12">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+           
+        </div>
+    </div>
+</body>
+</html>

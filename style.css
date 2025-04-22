@@ -1,0 +1,169 @@
+body{
+    background: rgb(44, 42, 42);
+    color: white;
+    font-family: monospace;
+    margin: 0;
+}
+
+.countdown{
+    text-align: center;
+    font-size: 1.5rem;
+}
+#ba{
+    text-align: center;
+    font-size: 2rem;
+}
+.settings{
+    background: rgb(44, 42, 42);
+    color: white;
+    border: 1px solid white;
+    width: 30%;
+    margin: 1rem auto;
+    padding: 15px;
+
+}
+.settings label{
+    font-weight: bold;
+}
+.closeBtn{
+    margin: 0 0 1rem 0;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.closeBtn:hover{
+    color: red;
+}
+button{
+    font-size: 1.5rem
+}
+h1{
+    font-size: 9rem;
+}
+.themes-container{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 2rem;
+}
+.theme-1{
+    height: 50px;
+    width: 50px;
+    background: #ABBB77;
+    cursor: pointer;
+    border: 3px solid darkgrey;
+}
+.theme-2{
+    height: 50px;
+    width: 50px;
+    background: #fefae0;
+    cursor: pointer;
+    border: 3px solid darkgrey;
+}
+.theme-3{
+    height: 50px;
+    width: 50px;
+    background: #dda15e;
+    cursor: pointer;
+    border: 3px solid darkgrey;
+}
+.theme-4{
+    height: 50px;
+    width: 50px;
+    background: #bc6c25;
+    cursor: pointer;
+    border: 3px solid darkgrey;
+}
+.theme-5{
+    height: 50px;
+    width: 50px;
+    background: #4DC2E0;
+    cursor: pointer;
+    border: 3px solid darkgrey;
+}
+.theme-6{
+    height: 50px;
+    width: 50px;
+    background: #ffb703;
+    cursor: pointer;
+    border: 3px solid darkgrey;
+}
+.theme-7{
+    height: 50px;
+    width: 50px;
+    background: #c1121f;
+    cursor: pointer;
+    border: 3px solid darkgrey;
+}
+.theme-8{
+    height: 50px;
+    width: 50px;
+    background: #583C04;
+    cursor: pointer;
+    border: 3px solid darkgrey;
+}
+.theme-9{
+    height: 50px;
+    width: 50px;
+    background: #254355;
+    cursor: pointer;
+    border: 3px solid darkgrey;
+}
+.theme-10{
+    height: 50px;
+    width: 50px;
+    background: #ccd5ae;
+    cursor: pointer;
+    border: 3px solid darkgrey;
+}
+.theme-11{
+    height: 50px;
+    width: 50px;
+    background: #bacc80;
+    cursor: pointer;
+    border: 3px solid darkgrey;
+}
+.theme-12{
+    height: 50px;
+    width: 50px;
+    background: #d4a373;
+    cursor: pointer;
+    border: 3px solid darkgrey;
+}
+.theme-1:hover{
+    border: 3px solid white;
+}
+.theme-2:hover{
+    border: 3px solid white;
+}
+.theme-3:hover{
+    border: 3px solid white;
+}
+.theme-4:hover{
+    border: 3px solid white;
+}
+.theme-5:hover{
+    border: 3px solid white;
+}
+.theme-6:hover{
+    border: 3px solid white;
+}
+.theme-7:hover{
+    border: 3px solid white;
+}
+.theme-8:hover{
+    border: 3px solid white;
+}
+.theme-9:hover{
+    border: 3px solid white;
+}
+.theme-10:hover{
+    border: 3px solid white;
+}
+.theme-11:hover{
+    border: 3px solid white;
+}
+.theme-12:hover{
+    border: 3px solid white;
+}
